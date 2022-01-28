@@ -1,0 +1,11 @@
+@mixin size($x, $y , $pesudo:false) {
+   
+ width: 100%;
+ padding-top: ($x/$y*1%);
+  }
+
+
+  .sample{
+    @include size(100,5,true);
+  background-color: brown;
+}

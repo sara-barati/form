@@ -1,0 +1,50 @@
+body {
+  background-color: #f1f1f1;
+}
+
+input[type=text] {
+  width: 95%;
+  padding: 12px;
+  margin-left: 1%;
+  border: 1px solid #cac6c6;
+  border-radius: 4px;
+}
+
+select {
+  width: 95%;
+  padding: 12px;
+  margin-left: 1%;
+  border: 1px solid #cac6c6;
+  border-radius: 4px;
+  width: 97%;
+}
+
+textarea {
+  width: 95%;
+  padding: 12px;
+  margin-left: 1%;
+  border: 1px solid #cac6c6;
+  border-radius: 4px;
+}
+
+label {
+  padding: 12px 12px 12px 0;
+  display: inline-block;
+  margin-left: 1%;
+}
+
+input[type=submit] {
+  background-color: #4CAF50;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  float: left;
+  margin-left: 1%;
+}
+
+input[type=submit]:hover {
+  background-color: #45a049;
+}
+/*# sourceMappingURL=style.css.map */
